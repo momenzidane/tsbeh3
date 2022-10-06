@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(250, 235, 215);
+}
+
+.cont {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+
+}
+
+.cont img {
+    width        : 200px;
+    /* margin-top: 100px; */
+}
+
+.increment {
+    /* background-color: pink; */
+    width           : 62px;
+    height          : 62px;
+    position        : absolute;
+    margin-top      : 127px;
+    border-radius   : 50px;
+}
+
+.clear {
+    /* background-color: rgb(0, 0, 0); */
+    width           : 23px;
+    height          : 23px;
+    position        : absolute;
+    margin-top      : 36px;
+    border-radius   : 50px;
+    margin-left     : 98px;
+}
+
+.num {
+    font-family: 'Audiowide', sans-serif;
+    margin-top : -108px;
+    font-size  : 40px;
+    margin-left: -84px;
+    color      : rgb(69, 69, 69);
+    position   : absolute;
+}
+
+.data {
+    font-size : 50px;
+    margin-top: 120px;
+}
